@@ -1,0 +1,25 @@
+div{
+	width:100px;
+	height:35px;
+	background-color:green;
+	margin:auto;
+	border:2px solid black;
+	border-radius:5px;
+	text-align:center;
+	font-size:14px;
+	font-family:Arial;
+	font-weight:bold;
+	padding-bottom:-5px;
+	position:relative;
+	top:-10px;
+}
+
+a:link{
+	text-decoration:none;
+	color:white;
+}
+
+a:visited{
+	text-decoration:none;
+	color:white;
+}
