@@ -40,7 +40,22 @@ body{
 	width:100%;
 	background-color:#45093f; 
 }
-	
+
+#nav{
+	height:25px;
+	width:100%;
+	margin-top:-3px;
+	border:3px solid #45093f;
+	padding-bottom:5px;
+}
+
+a{
+	padding:50px 25px 0px 25px;
+	text-decoration:none;
+	color:#45093f;
+	font-size:18px;
+	}
+
 .button{
 	width:100px;
 	height:35px;
@@ -55,14 +70,4 @@ body{
 	padding-bottom:-5px;
 	position:relative;
 	top:-10px;
-}
-
-a:link{
-	text-decoration:none;
-	color:white;
-}
-
-a:visited{
-	text-decoration:none;
-	color:white;
 }
