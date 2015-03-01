@@ -1,7 +1,50 @@
-div{
+/* Color Palette:
+Dark Purple: #45093f
+Medium Purple: #850d7b
+Light Purple: #e3aad7
+*/
+
+*{
+font-family: Verdana, Tahoma, sans-serif;
+}
+
+html{
+background-color:white;
+}
+
+body{
+	background-color: #e3aad7;
+	border-right: 150px solid white;
+	border-left: 150px solid white;
+	min-height:100%;
+	padding: 50px 100px;
+	margin-top: -25px;
+	color: #45093f;
+}
+
+#logo{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	margin-bottom: 50px;
+}
+
+.title{
+	padding-left: 150px;
+	text-align:right;
+	margin-bottom: 25px;
+}	
+
+.divider{
+	height:3px; 
+	width:100%;
+	background-color:#45093f; 
+}
+	
+.button{
 	width:100px;
 	height:35px;
-	background-color:green;
+	background-color:#45093f;
 	margin:auto;
 	border:2px solid black;
 	border-radius:5px;
